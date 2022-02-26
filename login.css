@@ -1,29 +1,31 @@
 
 
 html,body{
-    margin: 0px;
     display: flex;
     text-align: center;
     align-items: center;
-    overflow: visible;
+    margin: 0px;
 }
 
 
 .container {
-    width: 100vw;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     min-width: 75%;
     min-height: 50%;
-    overflow: auto;
-    background-color: rgb(251,251,251)
+    background-color: rgb(251,251,251);
+    width: 100vw;
+    height: 100vh;
 
 }
 
+/* white area around sign in */
 .card   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border-style: solid;
     border-width: 4px;
     border-radius: 12px;
@@ -31,45 +33,40 @@ html,body{
     background-color: white;
     min-width: 30%;
     min-height: 20%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding-bottom: 15px;
 }
-
+/* Sign in title */
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
 
 .u-name{
+    flex-direction: column;
+    align-self: center;
     width: 10vw;
     height: 2vh;
-    align-self: center;
-    display: flex;
-    flex-direction: column;
     min-width: 50%;
     min-height:7%;
     color: rgb(184,181,177)
-
 }
 
 
 .pw{
+    align-self: center;
     width: 10vw;
     height: 2vh;
-    align-self: center;
     min-width: 50%;
     min-height: 7%;
     color: rgb(184,181,177)
 }
 
 .button{
+    align-self: center;
+    border-style: solid;
     width: 10vw;
     height: 4vh;
-    align-self: center;
-    overflow: visible;
     margin: 0.5rem;
     background-color: rgb(24, 142, 219);
-    border-style: solid;
     border-width: 4px;
     border-radius: 16px;
     border-color: rgba(0, 0, 0, 0);
@@ -79,6 +76,7 @@ h1{
     color: white;
 }
 
+/* to underline input boxes */
 input{
     border: transparent;
     border-bottom: ridge;
