@@ -5,7 +5,7 @@ Create a login UI page
 
 Language: HTML, CSS
 
-See the project live at:https://ywinc.github.io/wincy-yu-login-ui-with-flexbox/login.html
+See the project live at: https://ywinc.github.io/wincy-yu-login-ui-with-flexbox/login.html
 
 The project must meet the following requirements:
 
